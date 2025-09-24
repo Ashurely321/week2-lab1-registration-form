@@ -16,111 +16,117 @@
     <main>
       <h2>Contact me</h2>
 
-      <form action="" class="main_form" id="main-form">
-        <!-- First Name -->
-        <div class="main_form__field">
-          <label for="firstName" class="main_form__field__label"
-            >First name</label
-          >
-          <input
-            type="text"
-            id="firstName"
-            class="main_form__field__input"
-            required
-          />
-        </div>
-
-        <!-- Last Name -->
-        <div class="main_form__field">
-          <label for="lastName" class="main_form__field__label"
-            >Last name</label
-          >
-          <input
-            type="text"
-            id="lastName"
-            class="main_form__field__input"
-            required
-          />
-        </div>
-
-        <!-- Email -->
-        <div class="main_form__field">
-          <label for="email" class="main_form__field__label">Email</label>
-          <input
-            type="email"
-            id="email"
-            class="main_form__field__input"
-            required
-          />
-        </div>
-
-        <!-- Password -->
-        <div class="main_form__field">
-          <label for="password" class="main_form__field__label">Password</label>
-          <input
-            type="password"
-            id="password"
-            class="main_form__field__input"
-            required
-            minlength="6"
-          />
-        </div>
-
-        <!-- Birthdate -->
-        <div class="main_form__field">
-          <label for="birthdate" class="main_form__field__label"
-            >Birthdate</label
-          >
-          <input
-            type="date"
-            id="birthdate"
-            class="main_form__field__input"
-            required
-          />
-        </div>
-
-        <!-- Interests checkboxes -->
-        <div class="main_form__field">
-          <label class="main_form__field__label">Interests</label>
-
-          <div class="main_form__checkbox-group">
-            <label for="coding">
-              <input
-                type="checkbox"
-                id="coding"
-                name="interests"
-                value="coding"
-              />Coding
-            </label>
-            <label for="design">
-              <input
-                type="checkbox"
-                id="design"
-                name="interests"
-                value="design"
-              />Design
-            </label>
-            <label for="gaming">
-              <input
-                type="checkbox"
-                id="gaming"
-                name="interests"
-                value="gaming"
-              />Gaming
-            </label>
-            <label for="reading">
-              <input
-                type="checkbox"
-                id="reading"
-                name="interests"
-                value="reading"
-              />Reading
-            </label>
+      <div
+        class="container min-vh-100 d-flex justify-content-center align-items-center"
+      >
+        <form action="" class="main_form" id="main-form">
+          <!-- First Name -->
+          <div class="main_form__field">
+            <label for="firstName" class="main_form__field__label"
+              >First name</label
+            >
+            <input
+              type="text"
+              id="firstName"
+              class="main_form__field__input"
+              required
+            />
           </div>
-        </div>
 
-        <button class="main_form__submit" type="submit">Send</button>
-      </form>
+          <!-- Last Name -->
+          <div class="main_form__field">
+            <label for="lastName" class="main_form__field__label"
+              >Last name</label
+            >
+            <input
+              type="text"
+              id="lastName"
+              class="main_form__field__input"
+              required
+            />
+          </div>
+
+          <!-- Email -->
+          <div class="main_form__field">
+            <label for="email" class="main_form__field__label">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="main_form__field__input"
+              required
+            />
+          </div>
+
+          <!-- Password -->
+          <div class="main_form__field">
+            <label for="password" class="main_form__field__label"
+              >Password</label
+            >
+            <input
+              type="password"
+              id="password"
+              class="main_form__field__input"
+              required
+              minlength="6"
+            />
+          </div>
+
+          <!-- Birthdate -->
+          <div class="main_form__field">
+            <label for="birthdate" class="main_form__field__label"
+              >Birthdate</label
+            >
+            <input
+              type="date"
+              id="birthdate"
+              class="main_form__field__input"
+              required
+            />
+          </div>
+
+          <!-- Interests checkboxes -->
+          <div class="main_form__field">
+            <label class="main_form__field__label">Interests</label>
+
+            <div class="main_form__checkbox-group">
+              <label for="coding">
+                <input
+                  type="checkbox"
+                  id="coding"
+                  name="interests"
+                  value="coding"
+                />Coding
+              </label>
+              <label for="design">
+                <input
+                  type="checkbox"
+                  id="design"
+                  name="interests"
+                  value="design"
+                />Design
+              </label>
+              <label for="gaming">
+                <input
+                  type="checkbox"
+                  id="gaming"
+                  name="interests"
+                  value="gaming"
+                />Gaming
+              </label>
+              <label for="reading">
+                <input
+                  type="checkbox"
+                  id="reading"
+                  name="interests"
+                  value="reading"
+                />Reading
+              </label>
+            </div>
+          </div>
+
+          <button class="main_form__submit" type="submit">Send</button>
+        </form>
+      </div>
 
       <div id="output"></div>
     </main>
